@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap 4 Page</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body class = "bg-dark">
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md justify-content-start bg-danger navbar-dark col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="50" height="50" alt="logo"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            NOW PLAYING
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="rocky-horror.html">Rocky Horror</a>
+                            <a class="dropdown-item" href="eraserhead.html">Eraserhead</a>
+                            <a class="dropdown-item" href="clockwork-orange.html">A Clockwork Orange</a>
+                            <a class="dropdown-item" href="suspiria.html">Suspiria</a>
+                        </div>
+                    </li>
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="comingsoon.html">Coming Soon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us at the theater</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <h1 class = "text-white-50" style = "text-align:center">Upcoming Events</h1>
+    <div class="card-deck">
+        <div class="card bg-danger text-black">
+            <img class = "card-img-top" src="img/610e2ae7bc810f382a64d24ba7502c0e7b.rhorizontal.w700.png" height = "300" width="232" alt = "Mary Harron with Christian Bale"/>
+            <div class="card-body">
+                <h5 class="card-title text-center">Q&A with American Psycho director Mary Harron</h5>
+                <p class="card-text" style = "font-size: 150%">For this pivotal film's 20th anniversary, director Mary Harron gives her insights into how to make powerful films that stand the test of time. She will be taking questions from 6:00-7:00 PM with a special showing at 8:00. A DJ will be there playing the film's incredible soundtrack with tracks like “Hip to be Square” and “Sussudio” and “True Faith” in between the Q & A and the screening.</p>
+            </div>
+        </div>
+        <div class="card bg-danger text-black">
+            <img class = "card-img-top" src = "img/Rad4eea06a05a5182b643abc9958b2173.png" height = "300" width="232" alt = "Rocky Horror Shadowcast"/>
+            <div class="card-body">
+                <h5 class="card-title text-center">Rocky Horror Picture Show Shadowcast</h5>
+                <p class="card-text" style = "font-size: 150%">The incredibly awesome cast of RHPS NYC are coming to our theater to perform a shadowcast of Rocky Horror! If you have ever seen them before, they play in various theaters across New York and are insanely talented. They will be acting along with the film playing above them and provides a unique and entertaining spin on this cult classic. Be sure to book tickets in advance as tickets will absolutely sell out!</p>
+            </div>
+        </div>
+        <div class="card bg-danger text-black">
+            <img class ="card-img-top" src="img/19b38a-20201111-wendy-carlos.jpg" height = "300" width="232" alt = "Wendy Carlos with synthesizers"/>
+            <div class="card-body">
+                <h5 class="card-title text-center">DJ set with Wendy Carlos 15 Year Anniversary</h5>
+                <p class="card-text" style = "font-size: 150%">Wendy Carlos’ 15 Anniversary since her last soundtrack was produced. A transgender icon and producer of some of the greatest film soundtracks of all time, We are paying respect to her legacy with a DJ set of some of her music. Songs include music from A clockwork orange, the shining, tron, and woundings. As well as some of her solo career music like “Switched-On Bach” and “Well Tempered Synthesizer” Admission starts at 10$ with a 2 drink minimum.</p>
+            </div>
+        </div>
+        </div>
+    </main>
+    <!-- DEVELOPER: Anthony Detorfino, IS117, Spring 2021 -->
+    <!-- Footer -->
+    <footer class="footer page-footer font-small" style="text-align:center;">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Anthony Detorfino, 2021 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</div></body>
+</html>

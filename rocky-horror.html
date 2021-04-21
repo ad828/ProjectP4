@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap 4 Page</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body class = "bg-dark">
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md justify-content-start bg-danger navbar-dark col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="50" height="50" alt="logo"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            NOW PLAYING
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="rocky-horror.html">Rocky Horror</a>
+                            <a class="dropdown-item" href="eraserhead.html">Eraserhead</a>
+                            <a class="dropdown-item" href="clockwork-orange.html">A Clockwork Orange</a>
+                            <a class="dropdown-item" href="suspiria.html">Suspiria</a>
+                        </div>
+                    </li>
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="comingsoon.html">Coming Soon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us at the theater</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <div class="card-deck">
+            <div class="card bg-danger text-black mt-3">
+                <img class = "card-img-bottom" src="img/Rocky%20Horror/rockyhorror050.jpg" alt = "Photo from Rocky Horror in the hall">
+                <div class="card-body">
+                    <h1 class="card-title text-start">The Rocky Horror Picture Show</h1>
+                </div>
+            </div>
+            <div class="card bg-danger text-black mt-3">
+                <div class="card-body">
+                    <h3 class = "card-title text-center">The Rocky Horror Picture Show</h3>
+                    <p class="card-text text-center lead"> <b>A newly engaged couple’s car breaks down, and winds up meeting Dr. Frank -n- Furter, a bizarre alien who seeks to create his “Rocky”, an unconditional lover that will grant him eternal happiness. Both a parody and a tribute of other midnight double features, this film lives, and breathes passion for the many science fiction films that came before it and defined it. Absolutely panned on the film's initial release, midnight screenings breathed new life into this film's livelihood. This film’s fame is mostly due to the LGBT scene in the 70’s. They were attracted to the film's themes of loving who you are in your own skin, knowing yourself, and not being afraid to try to be adventurous. People gathered in droves at midnight in the 70s to yell the film's lines, throw food and toilet paper at the screen, and “shadow cast” the film above them. More of a social phenomenon than a film, it’s camp hijinks are sure to resonate with anyone watching who wants to forget anything they know and just try to have a good time.</b></p>
+                </div>
+            </div>
+            <div class="card bg-danger text-black mt-3" id = "Cast">
+                <div class="card-body">
+                    <p class="card-text text-center">
+                    <h3 class="card-title text-center">Cast</h3>
+                    <ul style="font-size:150%">
+                        <li>Tim Curry as Dr. Frank N Furter</li>
+                        <li>Barry Bostwick as Brad Majors</li>
+                        <li>Susan Sarandon as Janet Weiss</li>
+                        <li>Richard O’Brien as Riff Raff</li>
+                        <li>Patricia Quinn as Magenta</li>
+                        <li> Patricia Quinn as Magenta</li>
+                        <li>  Nell Campbell as Columbia</li>
+                        <li>Peter Hinwood as Rocky</li>
+                        <li>Meat Loaf as Eddie</li>
+                    </ul>
+                    <h3 class="card-title text-center">Showtimes</h3>
+                    <ul style="font-size:150%">
+                        <li>Monday 12:00 AM</li>
+                        <li>Tuesday N/A AM</li>
+                        <li>Wednesday N/A</li>
+                        <li>Thursday N/A</li>
+                        <li>Friday 12:00 AM</li>
+                        <li>Saturday 12:00 AM</li>
+                        <li>Sunday 10:00 PM</li>
+                    </ul>
+                    <h3 class="card-title text-center">Trailer</h3>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/ldo_spDyLKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- DEVELOPER: Anthony Detorfino, IS117, Spring 2021 -->
+    <!-- Footer -->
+    <footer class="footer page-footer font-small" style="text-align:center;">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Anthony Detorfino, 2021 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</div></body>
+</html>

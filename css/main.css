@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+h2 {
+    padding-top: .5%;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+label {
+    text-align:left;
+    width:150px;
+    display:block;
+    float:left;
+    clear:right;
+}
+button {
+    float: right;
+    clear: left;
+}
+
+.card-deck {
+    padding-top: 2%;
+}
+#contact_form {
+    background-color: #ffe6e6;
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+    padding: 30px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+p{
+    font-size: 150%;
+}
+/*Developer - Anthony Detorfino Spring 2021 IS 117*/
